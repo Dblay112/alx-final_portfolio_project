@@ -1,7 +1,9 @@
-We are thrilled to present our final software engineering project, meticulously crafted by William and Bright Selorm Djogatse for the ALX Software Engineering Program. Throughout the development process, we poured our dedication and expertise into every line of code, ensuring a flawless backend that operates seamlessly and precisely as intended.
+We are thrilled to present our final software engineering project, meticulously crafted by William Yanney and Bright Selorm Djogatse for the ALX Software Engineering Program. Throughout the development process, we poured our dedication and expertise into every line of code, ensuring a flawless backend that operates seamlessly and precisely as intended.
 
-While we encountered some challenges on the frontend due to our specialization in backend engineering, we remained steadfast in our commitment to delivering excellence. Despite the looming deadline and the complexities of frontend development, our determination never wavered.
+While we encountered some challenges on the frontend due to our specialization in backend engineering, we remained steadfast in our commitment to delivering excellence. Despite the looming deadline and the complexities of our frontend development, our determination never wavered.
 
+// the frontend bug has been fixed
+// yet to style it appropriately
 Although there may be a few lingering bugs in the frontend, rest assured that we are fully committed to returning to refine and perfect every aspect of this web application. Our dedication to continuous improvement drives us forward, and we are confident that with time and effort, we will overcome any obstacles in our path.
 
 Thank you for the opportunity to showcase our skills and dedication to the craft of software engineering. We look forward to the journey ahead as we continue to grow and evolve in our development journey
@@ -53,15 +55,15 @@ Installation
 To run this project locally, follow these steps:
 
     Clone the repository: git clone <repository-url>
-    Navigate to the project directory: cd b-w-kitchenware
+    Navigate to the project directory: cd alx-final_portfolio_project
     Install dependencies for both the server and client:
-        Server: cd server && npm install
-        Client: cd client && npm install
+        Server: cd backend && npm install
+        Client: cd frontend && npm install
     Create a .env file in the server directory and configure environment variables (e.g., MongoDB URI, JWT secret).
     Seed the database with sample data (optional): npm run seed
-    Start the server: npm start (inside the server directory)
-    Start the client: npm start (inside the client directory)
-    Access the application in your web browser: http://localhost:3000
+    Start the server: npm run server (inside the server directory)
+    Start the client: npm run dev (inside the client directory)
+    Access the application in your web browser: http://localhost:5173
 
 Usage
 
