@@ -20,7 +20,7 @@
 .navbar-right {
   display: flex;
   align-items: center;
-  gap: 20px; /* Adjusted to reduce the gap */
+  gap: 20px; /* reduce the gap */
 }
 
 .navbar-right img {

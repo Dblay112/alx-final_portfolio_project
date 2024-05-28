@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./Navbar.css";
+import "./Navbar.css"; // css file
 import { useNavigate, Link } from "react-router-dom";
 
 // Importing assets directly
