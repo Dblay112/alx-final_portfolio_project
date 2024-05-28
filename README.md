@@ -24,7 +24,7 @@ Introduction
 B&W Kitchenware is aimed at providing users with a convenient platform to explore a wide range of kitchen products and make purchases online. Whether you're looking for cookware, utensils, appliances, or any other kitchen essentials, our platform has got you covered. With a user-friendly interface and seamless browsing experience, shopping for kitchen items has never been easier.
 Features
 
-    User Authentication: Users can sign up, log in, and manage their accounts.
+    User Authentication: Users can sign up, log in, and place orders.
     Product Catalog: Browse through a diverse range of kitchen products.
     Search Functionality: Easily find specific items using the search feature.
     Shopping Cart: Add items to the cart and proceed to checkout.
