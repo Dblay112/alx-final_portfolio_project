@@ -1,0 +1,65 @@
+.explore-shop {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  color: #2f4f4f; /*here dont*/
+}
+
+.explore-shop h1 {
+  color: #2f4f4f;
+  font-weight: 500;
+}
+
+.explore-shop-text {
+  max-width: 60%;
+  color: #2f4f4f;
+}
+
+.explore-shop-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px; /*here*/
+  text-align: center;
+  margin: 20px 0px;
+  overflow-x: scroll;
+}
+
+.explore-shop-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-shop-list-item img {
+  width: 7.5vw;
+  min-width: 80px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.explore-shop-list-item p {
+  margin-top: 10px;
+  color: #747474;
+  font-size: max(1.4vw, 16px);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.explore-shop hr {
+  margin: 10px 0px;
+  height: 2px;
+  background-color: #e2e2ee;
+  border: none;
+}
+
+.explore-shop-list-item .active {
+  border: 4px solid saddlebrown;
+  padding: 2px;
+}
+
+@media (max-width: 1050px) {
+  .explore-shop-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,73 @@
+.ware-item {
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #00000015;
+  transition: 0.4s;
+  animation: fadeIn 1s;
+}
+.ware-item-image {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.ware-item-info {
+  padding: 20px;
+}
+
+.ware-item-name-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ware-item-name-rating p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ware-item-name-rating img {
+  width: 70px;
+}
+
+.ware-item-desc {
+  color: saddlebrown;
+  font-size: 15px;
+}
+
+.ware-item-price {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+.ware-item-img-container {
+  position: relative;
+}
+
+.ware-item-img-container .add {
+  width: 35px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.ware-item-counter {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6x;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.ware-item-counter img {
+  width: 30px;
+}
